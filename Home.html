@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="CSS/Home.css">
+<head>
+	<title>Mister Loco | Online Clothing Shop</title>
+</head>
+<body>
+	<div id="header">
+		<img src="Img/Logo.jpg" id="headerimg">
+	</div>
+	
+	<!-- NAVBAR -->
+
+	<ul>
+		<li><a href="Home.html">HOME</a></li>
+		<li><a href="Products.html">PRODUCTS</a></li>
+		<li><a href="Order.html">ORDER</a></li>
+		<li><a href="#" id="drop">MORE INFORMATION</a>
+			<div id="dropdown">
+				<a href="Partner.html">PARTNER</a>
+				<a href="Contact.html">CONTACT US</a>
+			</div>
+		</li>
+		<form id="search">
+			<input type="text" name="" placeholder="SEARCH...">
+			<button>GO</button>
+		</form>
+	</ul>
+	<!-- SLIDER -->
+	<center>
+		<div id="imgslider">
+			<img id="slider" src="Img/slidex.jpg"/><br/>
+			<button onclick="prev()" class="sliderbtn"> Prev </button>
+			<button onclick="next()" class="sliderbtn"> Next </button>
+		</div>
+	</center>
+	<!-- MAIN -->
+	<div id="content">
+		<h2 align="center" class="title">NEW ARRIVALS</h2>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">New Product 1</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $100</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">New Product 2</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $125</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">New Product 3</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $150</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">New Product 4</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $200</p>
+		</div>
+		<!-- PART 2 -->
+		<h2 align="center" class="title">EXCLUSIVES</h2>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">Exclusive Product 1</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $200</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">Exclusive Product 2</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $150</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">Exclusive Product 3</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $125</p>
+		</div>
+		<div class="product">
+			<a href=""><img src="Img/Product CS.png" class="ctimg"></a>
+			<p class="pname">Exclusive Product 4</p>
+			<p class="pdes">Product description here.</p>
+			<p class="price">Price: $100</p>
+		</div>
+	</div>
+	<div id="footer">
+		<p id="cr">Copyright &#169; 2018 Mister Loco. All Rights Reserved.</p>
+	</div>
+	<!-- SCRIPTS -->
+	<script src="JS/jquery-3.1.1.js"></script>
+	<script src="JS/Home.js"></script>
+</body>
+</html>
