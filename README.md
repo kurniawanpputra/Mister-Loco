@@ -1,3 +1,3 @@
-# Mister-Loco
+==PROJECT DETAILS
+* Front-end only website project
 
-A project titled Mister Loco, for Human-Computer Interaction assignment.
