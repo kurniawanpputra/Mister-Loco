@@ -1,2 +1,2 @@
-== PROJECT DETAILS
+==PROJECT DETAILS
 Mister Loco project, Human-Computer Interaction assignment.
