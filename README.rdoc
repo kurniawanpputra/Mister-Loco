@@ -1,2 +1,2 @@
-==PROJECT DETAILS
-* Front-end only website project
+# PROJECT DETAILS
+Mister Loco project, Human-Computer Interaction assignment.
